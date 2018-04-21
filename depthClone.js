@@ -1,3 +1,7 @@
+/*
+	参  数：任何数据类型
+	返回值：对应参数的数据类型，深拷贝后的结果
+*/
 function depthClone(obj) {
 	if(typeof obj == "object") {
 		if(obj instanceof Function) {

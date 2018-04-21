@@ -1,3 +1,7 @@
+/*
+	参  数：数组
+	返回值：一维数组，各排列结果的元素间用空格分割
+*/
 function fullPermutation(arr) {
 	var result = [];
 	if(arr.length == 1) {
